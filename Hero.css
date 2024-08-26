@@ -1,0 +1,113 @@
+.hero-wrapper {
+  color: white;
+  position: relative;
+  padding-bottom: 2rem;
+  background: var(--black);
+}
+
+.hero-left {
+  gap: 3rem;
+}
+
+.hero-title {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-title > h1 {
+  font-weight: 600;
+  font-size: 3.8rem;
+  line-height: 4rem;
+}
+
+.orange-circle {
+  height: 4rem;
+  width: 4rem;
+  background: var(--orange-gradient);
+  border-radius: 99px;
+  position: absolute;
+  right: 28%;
+  top: -10px;
+  z-index: -1;
+}
+
+.search-bar {
+  background-color: white;
+  border-radius: 5px;
+  border: 3px solid rgba(120, 120, 120, 0.374);
+  padding: 0.5rem 1rem;
+  justify-content: space-between;
+  align-items: center; /* Ensure items inside are centered */
+  display: flex; /* Flexbox for alignment */
+  width: 100%; /* Make the search bar full width */
+  max-width: 400px; /* Limit the width to control the size */
+}
+
+.search-bar > input {
+  flex: 1; /* Input takes all the space it can */
+  border: none;
+  outline: none;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+}
+.stats {
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 2rem; /* Space above stats */
+  color: #f2f2f2; /* Light grey text color */
+}
+
+.stat-item h1 {
+  font-size: 2.5rem;
+  color: #ffc107; /* Yellow color for the numbers */
+}
+
+.stat-item p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  color: #bfbfbf; /* Light grey for the descriptions */
+  text-align: center;
+}
+
+.search-bar > button {
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centering vertically */
+}
+
+.hero-left {
+  flex: 1;
+  text-align: left; /* Aligns text to the left */
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  width: 30rem;
+  height: 35rem;
+  overflow: hidden;
+  border-radius: 15rem 15rem 0 0;
+  border: 8px solid rgba(255, 255, 255, 0.12);
+  margin-bottom: 1rem; /* Adds spacing between the image and "Right Section" text */
+}
+
+.image-container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+}

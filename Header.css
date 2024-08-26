@@ -1,0 +1,20 @@
+.h-wrapper {
+  background: var(--black);
+  color: white;
+}
+.h-container {
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: var(--secondary);
+}
+
+.h-menu {
+  /* Ensure items are laid out horizontally */
+  gap: 2rem; /* Space between menu items */
+}
+
+.h-menu > *:hover {
+  cursor: pointer; /* Change cursor on hover */
+  /* Add any additional hover styles here, e.g., color change */
+}
